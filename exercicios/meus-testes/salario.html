@@ -9,9 +9,8 @@
     <h1>Salários</h1>
 
     <script>
-        sal = window.prompt('Qual seu salário?')
-        sal.
-        alert(`Seu salário é de `)
+        sal = Number(window.prompt('Qual seu salário?'))
+        alert(`Seu salário é de ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
     </script>
 </body>
 </html>
